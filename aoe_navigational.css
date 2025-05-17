@@ -20,7 +20,7 @@ li:hover {
 }
 
 li:last-child {
-    border-right-width: px;
+    border-right-width: 0px;
 }
 
 li a {
@@ -40,3 +40,4 @@ li  a:hover:not(.active) {
 
     display:flex;
 }
+
