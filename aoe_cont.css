@@ -1,0 +1,26 @@
+/* This has elements styling for body, divs columns, containers */
+/* advance styling of the page */
+
+#contentwrapper {
+    float: center;
+    width: 100%;
+}
+
+#centercolumn {
+    margin: 0px 0px 0px 0px;
+    background: yellow;
+}
+
+#leftcolumn {
+    float: left;
+    width: 100px;
+    background: #556B2F
+    /* margin-left: -100%; */
+}
+
+#rightcolumn {
+    float: right;
+    width: 100px;
+    background: #C1121F
+}
+

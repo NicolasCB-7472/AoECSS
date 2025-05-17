@@ -1,0 +1,25 @@
+/* This page deals with the basic structure of the page */
+
+#header {
+    background: #120A8F;
+    font-family: 'MV BOLI';
+    color: #FFFFFF;
+    height: 50px;   
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 16px;
+    background: orange;
+}
+
+#footer {
+    background: black;
+    font-family: 'Verdana';
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    clear: left;    
+}

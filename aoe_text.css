@@ -1,0 +1,8 @@
+/* this page is meant for the text dealt inside the divs */
+
+.innertext {
+    margin: 0px;
+    padding:20px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}

@@ -1,0 +1,34 @@
+/* This page is meant for the header navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #120A8F;;
+}
+
+li {
+    float: left;
+    border: 2px solid #7e828F;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    width: 10%;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li  a:hover:not(.active) {
+    background-color: #123F8F;
+}
+
+.active  {
+    background-color: #1d5f8F;
+}
