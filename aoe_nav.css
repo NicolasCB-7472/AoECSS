@@ -15,8 +15,12 @@ li {
     width: 10%;
 }
 
+li:hover {
+    background-color: #1d5f8F;
+}
+
 li:last-child {
-    border-right: none;
+    border-right-width: px;
 }
 
 li a {
@@ -26,9 +30,13 @@ li a {
 }
 
 li  a:hover:not(.active) {
-    background-color: #123F8F;
+    background-color: yellow;
 }
 
 .active  {
-    background-color: #1d5f8F;
+    background-color: #1E4F8F;
+    padding: 15px 20px 15px 15px;
+    margin: -15px -15px -15px -15px;
+
+    display:flex;
 }

@@ -1,34 +1,55 @@
 /* This page deals with the responsiveness of the page */
 
-/* this collapses the right silhouettes */ 
-@media (max-width: 700px) {
+/* this collapses the silhouettes */ 
+@media (max-width: 800px) {
+    #columnwrapper {
+        display: inline;
+    }
     
     #leftcolumn {
-        margin-right: 0px;
+        float: left;
+        width: 100%;
+        clear: both;
     }
 
     #rightcolumn {
-        float: none;
+        float: right;
         width: 100%;
-        margin-left:  0px;
         clear: both;
     }
 
     #centercolumn {
-        margin-right: 0px; 
+        float: center;
+        width: 100%;
+        clear: both;
     }
 }
 
-/* this collapses the left silhouettes*/
-@media (max-width: 700px) {
-    #leftcolumn {
-        float: none;
+
+
+/* this expands the silhouettes*/
+@media (min-width: 800px) {
+    #columnwrapper {
         width: 100%;
+    }
+    
+    #centercolumn {
+        float: center;
+        width: 50%;
         clear: both;
-        margin-left: 0;
     }
 
-    #centercolumn {
-        margin-left: 0;
+    #leftcolumn {
+        float: left;
+        width: 25%;
+        clear: both;
+        border: none;
+    }
+
+    #rightcolumn {
+        float: right;
+        width: 25%;
+        clear: both;
+        border: none;
     }
 }

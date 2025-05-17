@@ -1,26 +1,30 @@
 /* This has elements styling for body, divs columns, containers */
 /* advance styling of the page */
 
-#contentwrapper {
-    float: center;
-    width: 100%;
+#columnwrapper {
+    display: flex;
 }
 
 #centercolumn {
     margin: 0px 0px 0px 0px;
-    background: yellow;
+    background: #e7e6ec;
+    display: inline-block;
 }
 
 #leftcolumn {
-    float: left;
-    width: 100px;
+    /* float: left; */
+    width: 100%;
+    display: inline-block;
     background: #556B2F
+    
     /* margin-left: -100%; */
 }
 
 #rightcolumn {
-    float: right;
+    /* float: right; */
     width: 100px;
+    display: inline-block;
     background: #C1121F
+    
 }
 
