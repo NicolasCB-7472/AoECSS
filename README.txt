@@ -7,3 +7,6 @@ backgrounds, and many more details.
 
 The page objective is to talk, in a short manner, about Age of Empires I, II, III and IV. 
 Highlighting some interesting aspects of each game. In an expository manner, in a concise manner. 
+
+IMG-> prompted with AI
+Ages text-> prompted with AI
