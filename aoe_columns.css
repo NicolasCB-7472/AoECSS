@@ -9,6 +9,7 @@
     margin: 0px 0px 0px 0px;
     background: #e7e6ec;
     display: inline-block;
+    border-top: 2px solid #3370ff;
 }
 
 #leftcolumn {
@@ -26,6 +27,14 @@
     display: inline-block;
     background: #C1121F
     
+    
+}
+
+#bottomcolumn {
+    /* float: right; */
+    width: 100%;
+    display: inline-block;
+    background: #60778F
 }
 
 

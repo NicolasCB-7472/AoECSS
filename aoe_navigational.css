@@ -2,9 +2,10 @@
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #120A8F;;
+    margin: 0px;
+    padding: 0px;
+    background-color: #120A8F;
+    
 }
 
 li {
@@ -13,6 +14,7 @@ li {
     padding: 15px 15px 15px 15px;
     text-align: center;
     width: 10%;
+    border-color: #3370ff;
 }
 
 li:hover {
@@ -20,7 +22,7 @@ li:hover {
 }
 
 li:last-child {
-    border-right-width: 0px;
+    border-right-width: 4px;
 }
 
 li a {
@@ -30,7 +32,7 @@ li a {
 }
 
 li  a:hover:not(.active) {
-    background-color: yellow;
+    background-color: #3370ff;
 }
 
 .active  {
